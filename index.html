@@ -19,7 +19,7 @@ body { padding : 0; font-family: 'Lato', sans-serif; font-size : 17px; }
 .container { width : 800px; margin : 1px auto; border-radius: 20px; padding : 15px; padding-bottom : 0; clear:both; }
 #bio { height : 250px; position: relative; float : left; width : 400px; }
 #me { border : 0 solid black; margin-bottom : 30px; border-radius : 10px; }
-#sidebar { margin-left:80px; margin-right : 50px; border : 0 solid black; float : left; margin-bottom : 0;}
+#sidebar { margin-left:60px; margin-right : 70px; border : 0 solid black; float : left; margin-bottom : 0;}
 a { text-decoration : none; }
 a:hover { text-decoration : underline; }
 a, a:visited { color : #3366cc; }
@@ -75,17 +75,23 @@ a, a:visited { color : #3366cc; }
 <body>
 
 <div class="title">
-    <div id="sidebar"><a href="me-portrait.jpg"><img src="me-portrait2.jpg" id="me" width="225" itemprop="photo"></a></div>
+    <div id="sidebar"><a href="avatar.jpg"><img src="images/avatar.jpg" id="me" width="192" itemprop="photo"></a></div>
 
     <div id="bio">
         <div style="position:absolute;top:28px;">
-            <h1><span itemprop="name">Carl Vondrick</span></h1>
+            <h1><span itemprop="name">Zhiyi Tang</span></h1>
 
             <p style="line-height:23px;">
-            Ph.D. Student, MIT<br> 
-            Email: <a href="mailto:vondrick@mit.edu">vondrick@mit.edu</a><br>
-            Office: 32-D475B</p>
-            <p class="external"><a href="cv.pdf" class="first">Resume</a> &bull; <a href="https://github.com/cvondrick">Github</a> &bull; <a href="http://scholar.google.com/citations?user=3MzhkFIAAAAJ&hl=en">Scholar</a> &bull; <a href="https://twitter.com/cvondrick">Twitter</a></p>
+            Ph.D. Student, HIT<br> 
+            Email: <a href="mailto:tangzhi1@hit.edu.cn">tangzhi1@hit.edu.cn</a><br>
+            Office: 424, School of Civil Engineering, Campus 2</p>
+            <p class="external"><a href="cv.pdf" class="first">Resume</a> &bull; <a href="https://github.com/dawnnao">Github</a> &bull; <a href="https://www.linkedin.com/in/zhiyi-tang-680a2282">Linkedin</a>
+            
+            <!--
+            &bull; <a href="http://">Scholar</a> &bull; <a href="https://">Twitter</a>
+            -->
+
+            </p>
         </div>
     </div>
 
@@ -93,17 +99,12 @@ a, a:visited { color : #3366cc; }
 
 <div class="container">
     <h2>About Me</h2>
-    <p>My research studies computer vision and machine learning. My work focuses on developing rich predictive models that learn from large amounts of raw natural data.</p>
-    <!--<p>In the fields of computer vision and machine learning, my research investigates Predictive Vision with the goal to develop methods that anticipate events in the future. My work builds algorithms that learn from large amounts of raw data in order to create rich predictive models.</p> -->
+    <p>My research studies structural health monitoring. My work focuses on developing real-time and predictive models about structure performance that learn from large amounts of SHM data.</p>
 
-    <p>I am a Ph.D. student at <a href="http://web.mit.edu">MIT</a>
-    where I am advised by <a href="http://web.mit.edu/torralba/www/">Antonio Torralba</a>.
-    I completed my bachelors degree at <a href="http://www.cs.uci.edu/">UC Irvine</a> advised by <a
-    href="http://www.cs.cmu.edu/~deva/">Deva Ramanan</a>. I spent some fun summers at <a href="https:/google.com">Google</a>
-    and <a href="http://www.nytimes.com/2011/11/14/technology/at-google-x-a-top-secret-lab-dreaming-up-the-future.html?pagewanted=all">Google X</a>.</p>
-    
-    <p>Thank you
-    to <a href="http://googleresearch.blogspot.com/2015/02/announcing-2015-north-american-google.html">Google</a> and the <a href="https://www.nsfgrfp.org/">NSF</a> for fellowships that support my research!</p>
+    <p>It's my first year as a Ph.D. student at <a href="http://web.mit.edu">HIT</a>
+    where I am advised by <a href="https://scholar.google.com/citations?user=P325QsQAAAAJ&hl=en">Yuequan Bao</a>.
+    I as well completed my bachelor degree and master degree at HIT, advised by <a
+    href="http://homepage.hit.edu.cn/lihui">Hui Li</a>. Going to a HIT cubic!</p>
 
 </div>
 
@@ -112,21 +113,10 @@ a, a:visited { color : #3366cc; }
 
 <ul id="news">
 
-    <li>One paper will appear at CVPR 2017!</li>
+    <li>One paper will appear at Journal of Structural Health Monitoring!</li>
     
-    <li>Two papers presented at NIPS 2016.</li>
+    <li>Going to APESS 2017 at Yokohama.</li>
 
-    <li>Check out <a href="https://www.re-work.co/blog/machine-intelligence-carl-vondrick-mit-computer-vision-predictive-intelligence">an interview</a> about predictive vision or watch a <a href="http://view.vzaar.com/8635753/player">recent talk</a>.</li>
-
-
-
-    <li>Our research is covered on <a href="http://money.cnn.com/2016/06/21/technology/ai-kissing/">CNN</a>, <a href="http://www.npr.org/sections/alltechconsidered/2016/07/12/485144229/a-computer-binge-watched-tv-and-learned-to-predict-what-happens-next">NPR</a>, <a href="http://bigstory.ap.org/article/7ec97c70223e49b98fbc7df2ff824d59/how-do-you-teach-human-interaction-robot-lots-tv">AP</a>, <a href="http://www.wired.com/2016/06/mit-algorithm-predicts-future-watching-tv/">Wired</a> and <a href="https://www.youtube.com/watch?v=pGrNwtHxMqs">Stephen Colbert</a>!</li>
-        <!--<li><a href="http://www.nbcnews.com/mach/technology/deep-learning-predicts-future-n690851">NBC</a>, <a href="http://www.theverge.com/2016/9/12/12886698/machine-learning-video-image-prediction-mit">The Verge</a>, and <a href="https://www.newscientist.com/article/mg23231020-100-ai-learns-to-predict-the-future-by-watching-2-million-videos/">New Scientist</a> for press about generative video models.</li>
-        <li><a href="http://www.marketplace.org/shows/marketplace-tech/marketplace-tech-monday-december-5-2016">NPR</a>, <a href="https://www.newscientist.com/article/2111363-binge-watching-videos-teaches-computers-to-recognise-sounds/">New Scientist</a> and <a href="http://news.mit.edu/2016/computer-learns-recognize-sounds-video-1202">MIT News</a> for press on sound recognition.</li>
-    </ul></li>-->
-
-
-    <li>Three papers presented at CVPR 2016.</li>
 </ul>
 
 </div>
@@ -136,274 +126,10 @@ a, a:visited { color : #3366cc; }
 <div class="container">
 <h2>Papers</h2>
 
-    <h3>Unsupervised and Transfer Learning</h3>
+    <h3>Machine Vision based Anomaly Detection</h3>
 
-    <p>Although lacking annotations, unlabeled video and text is abundantly
-    available and contains rich signals about the world. How do we 
-    use this resource to develop more powerful perceptual systems?</p>
+    <p>Coming soon</p>
 
-    <div class="publication">
-    <a href=""><img src="transformer.jpg" class="publogo" width="100" height="100"></a>
-    <p><strong><a href="">Generating the Future with Adversarial Transformers</a></strong> <span class="new">New!</span><br> 
-    Carl Vondrick, Antonio Torralba<br>
-    <em>CVPR 2017</em><br>
-    <span class="links">Coming Soon</span>
-    </div>
-
-
-
-    <div class="publication">
-    <a href="tinyvideo/"><img src="tinyvideo.gif" class="publogo" width="100" height="100"></a>
-    <p><strong><a href="tinyvideo/">Generating Videos with Scene Dynamics</a></strong> <span class="new">New!</span><br> 
-    Carl Vondrick, Hamed Pirsiavash, Antonio Torralba<br>
-    <em>NIPS 2016</em><br>
-    <span class="links"><a href="tinyvideo/paper.pdf">Paper</a> <a href="tinyvideo">Project Page</a> <a href="https://github.com/cvondrick/videogan">Code</a> <a href="http://www.nbcnews.com/mach/technology/deep-learning-predicts-future-n690851">NBC</a>  <a href="https://www.scientificamerican.com/article/spoiler-alert-artificial-intelligence-can-predict-how-scenes-will-play-out/">Scientific American</a> <a href="https://www.newscientist.com/article/mg23231020-100-ai-learns-to-predict-the-future-by-watching-2-million-videos/">New Scientist</a> <a href="http://news.mit.edu/2016/creating-videos-of-the-future-1129">MIT News</a></span>
-    </div>
-
-
-    <div class="publication">
-    <a href="http://projects.csail.mit.edu/soundnet/"><img src="soundnet.png" class="publogo" width="100" height="100"></a>
-    <p><strong><a href="http://projects.csail.mit.edu/soundnet/">SoundNet: Learning Sound Representations from Unlabeled Video</a></strong> <span class="new">New!</span><br> 
-    Yusuf Aytar*, Carl Vondrick*, Antonio Torralba<br>
-    <em>NIPS 2016</em><br>
-    <span class="links"><a href="soundnet.pdf">Paper</a> <a href="http://projects.csail.mit.edu/soundnet/">Project Page</a> <a href="https://github.com/cvondrick/soundnet">Code</a> <a href="http://www.marketplace.org/shows/marketplace-tech/marketplace-tech-monday-december-5-2016">NPR</a> <a href="https://www.newscientist.com/article/2111363-binge-watching-videos-teaches-computers-to-recognise-sounds/">New Scientist</a> <a href="weekjunior.pdf">Week Junior</a> <a href="http://news.mit.edu/2016/computer-learns-recognize-sounds-video-1202">MIT News</a></span>
-    </div>
-
-
-
-    <div class="publication">
-    <a href="prediction"><img src="predictionlogo.png" class="publogo"></a>
-    <p><strong><a href="prediction">Anticipating Visual Representations with Unlabeled Video</a></strong><br>
-    Carl Vondrick, Hamed Pirsiavash, Antonio Torralba<br>
-    <em>CVPR 2016</em><br>
-    <span class="links"><a href="prediction.pdf">Paper</a> <a href="http://web.mit.edu/vondrick/prediction/">Project Page</a> <a href="http://www.npr.org/sections/alltechconsidered/2016/07/12/485144229/a-computer-binge-watched-tv-and-learned-to-predict-what-happens-next">NPR</a> <a href="http://money.cnn.com/2016/06/21/technology/ai-kissing/">CNN</a> <a href="http://bigstory.ap.org/article/7ec97c70223e49b98fbc7df2ff824d59/how-do-you-teach-human-interaction-robot-lots-tv">AP</a> <a href="http://www.wired.com/2016/06/mit-algorithm-predicts-future-watching-tv/">Wired</a> <a href="https://www.facebook.com/colbertlateshow/videos/889597367851682/">Stephen Colbert</a> <a href="https://www.csail.mit.edu/teaching_machines_to_predict_the_future">MIT News</a> </span>
-    </div>
-
-    <div class="publication">
-    <a href="intention.pdf"><img src="why-logo.png" class="publogo" width="100" height="100"></a>
-    <p><strong><a href="intention.pdf">Predicting Motivations of Actions by Leveraging Text</a></strong><br>
-    Carl Vondrick, Deniz Oktay, Hamed Pirsiavash, Antonio Torralba<br>
-    <em>CVPR 2016</em><br>
-    <span class="links"><a href="intention.pdf">Paper</a> <a href="motivations_clean.zip">Dataset</a></span>
-    </div>
-
-<h3>Cross-Modal Transfer</h3>
-
-    <p>Objects and events manifest in many modalities (e.g., natural images, cartoons, sound, text). How can we represent concepts agnostic to their modality? How can we transfer between modalities?</p>
-
-    <div class="publication">
-    <a href="cmplaces_pami.pdf"><img src="adapt.gif" class="publogo" width="100" height="100"></a>
-    <p><strong><a href="cmplaces_pami.pdf">Cross-Modal Scene Networks</a></strong> <span class="new">New!</span><br>
-    Yusuf Aytar*, Lluis Castrejon*,  Carl Vondrick, Hamed Pirsiavash, Antonio Torralba<br>
-    <em>In Submission</em><br>
-    <span class="links"><a href="cmplaces_pami.pdf">Paper</a> <a href="http://projects.csail.mit.edu/cmplaces/">Project Page</a></span>
-    </div>
-
-
-
-    <div class="publication">
-    <a href="adaptation.pdf"><img src="cmplaces.png" class="publogo" width="100" height="100"></a>
-    <p><strong><a href="adaptation.pdf">Learning Aligned Cross-Modal Representations from Weakly Aligned Data</a></strong><br>
-    Lluis Castrejon*, Yusuf Aytar*, Carl Vondrick, Hamed Pirsiavash, Antonio Torralba<br>
-    <em>CVPR 2016</em><br>
-    <span class="links"><a href="adaptation.pdf">Paper</a> <a href="http://projects.csail.mit.edu/cmplaces/">Project Page</a> <a href="http://monday.csail.mit.edu/cmr/demo.php">Demo</a></span>
-    </div>
-
-    <div class="publication publication-short">
-    <p>See also: <strong><a href="soundnet.pdf">SoundNet: Learning Sound Representations from Unlabeled Video</a></strong></p>
-    </div>
-
-    <br>
-
-
-<h3>Action Understanding</h3>
-
-    <p>The ability to understand people from vision is important for human-machine interaction. 
-    How can we train machines to better understand people's activities and intentions?</p>
-
-    <div class="publication">
-    <a href="videogaze.pdf"><img src="videogaze.png" class="publogo" width="100"></a>
-    <p><strong><a href="videogaze.pdf">Following Gaze Across Views</a></strong> <span class="new">New!</span><br>
-    Adria Recasens, Carl Vondrick, Aditya Khosla, Antonio Torralba<br>
-    <em>In Submission</em><br>
-    <span class="links"><a href="videogaze.pdf">Paper</a> <a href="http://people.csail.mit.edu/recasens/video_results.html">Videos</a></span>
-    </div>
-
-
-
-    <div class="publication">
-    <a href="mistaken.pdf"><img src="mistaken.gif" class="publogo" width="100" height="100"></a>
-    <p><strong><a href="mistaken.pdf">Who is Mistaken?</a></strong> <span class="new">New!</span><br>
-    Benjamin Eysenbach, Carl Vondrick, Antonio Torralba<br>
-    <em>In Submission</em><br>
-    <span class="links"><a href="mistaken.pdf">Paper</a> <a href="http://people.csail.mit.edu/bce/mistaken/">Project Page</a></span>
-    </div>
-
-
-
-    <div class="publication">
-    <a href="gaze.pdf"><img src="gaze.png" width="100" height="100" class="publogo"></a>
-    <p><strong><a href="gaze.pdf">Where are they looking?</a></strong><br>
-    Adria Recasens*, Aditya Khosla*, Carl Vondrick, Antonio Torralba<br>
-    <em>NIPS 2015</em><br>
-    <span class="links"><a href="gaze.pdf">Paper</a> <a href="http://gazefollow.csail.mit.edu/">Project Page</a> <a href="http://gazefollow.csail.mit.edu/demo.html">Demo</a></span>
-    </div>
-
-    <div class="publication">
-    <a href="quality.pdf"><img src="action.png" class="publogo"></a>
-    <p><strong><a href="quality.pdf">Assessing the Quality of Actions</a></strong><br>
-    Hamed Pirsiavash, Carl Vondrick, Antonio Torralba<br>
-    <em>ECCV 2014</em><br>
-    <span class="links"><a href="quality.pdf">Paper</a> <a href="http://www.csee.umbc.edu/~hpirsiav/quality.html">Project Page</a></span> 
-    </div>
-
-
-    <div class="publication publication-short">
-    <p>See also: <strong><a href="prediction">Anticipating Visual Representations with Unlabeled Video</a></strong></p>
-    </div>
-
-    <div class="publication publication-short">
-    <p>See also: <strong><a href="intention.pdf">Predicting Motivations of Actions by Leveraging Text</a></strong></p>
-    </div>
-
-
-
-    <br>
-
-
-<h3>Model Diagnosis and Visualization</h3> 
-
-    <p>In order to improve upon computer vision models, it is instructive to understand and diagnose their failures. We are interested in
-    analyzing and visualizing computer vision models. How much training data do you need? What bottlenecks prevent us
-    from effectively capitlaizing on big data?</p>
-
-    <div class="publication">
-    <a href="ihog"><img src="ihog.png" class="publogo"></a>
-    <p><strong><a href="ihog">Visualizing Object Detection Features</a></strong><br> 
-    Carl Vondrick, Aditya Khosla, Hamed Pirsiavash, Tomasz Malisiewicz, Antonio Torralba<br>
-    <em>IJCV 2016</em><br>
-    <span class="links"><a href="ihog/ijcv.pdf">Paper</a>  <a href="ihog/">Project Page</a> <a href="ihog/slides.pdf">Slides</a>  <a href="http://web.mit.edu/newsoffice/2013/teaching-computers-to-see-by-learning-to-see-like-computers-0919.html">MIT News</a></span>
-    </div>
-
-    <div class="publication">
-    <a href="bigdata.pdf"><img src="moredata.jpg" class="publogo"></a>
-    <p><strong><a href="bigdata.pdf">Do We Need More Training Data?</a></strong><br>
-    Xiangxin Zhu, Carl Vondrick, Charless C. Fowlkes, Deva Ramanan<br>
-    <em>IJCV 2015</em><br>
-    <span class="links"><a href="bigdata.pdf">Paper</a>   <a href="http://vision.ics.uci.edu/datasets/data_10X_release.tar">Dataset</a></span>
-    </div>
-
-    <div class="publication">
-    <a href=""><img src="cihead.png" class="publogo"></a>
-    <p><strong><a href="imagination/paper.pdf">Learning Visual Biases from Human Imagination</a></strong><br>
-    Carl Vondrick, Hamed Pirsiavash, Aude Oliva, Antonio Torralba<br>
-    <em>NIPS 2015</em><br>
-    <span class="links"><a href="imagination/paper.pdf">Paper</a> <a href="imagination/">Project Page</a> <a href="http://www.technologyreview.com/view/532231/random-image-experiment-reveals-the-building-blocks-of-human-imagination/">Technology Review</a></span>
-    </div>
-
-    <div class="publication">
-    <a href="ihog"><img src="ihogduck.png" class="publogo"></a>
-    <p><strong><a href="ihog">HOGgles: Visualizing Object Detection Features</a></strong><br>
-    Carl Vondrick, Aditya Khosla, Tomasz Malisiewicz, Antonio Torralba<br>
-    <em>ICCV 2013</em><br>
-    <span class="links"><a href="ihog/iccv.pdf">Paper</a>  <a href="ihog/">Project Page</a> <a href="ihog/slides.pdf">Slides</a>  <a href="http://web.mit.edu/newsoffice/2013/teaching-computers-to-see-by-learning-to-see-like-computers-0919.html">MIT News</a></span>
-    </div>
-
-    <div class="publication">
-    <a href="largetrain.pdf"><img src="moredata.jpg" class="publogo"></a>
-    <p><strong><a href="largetrain.pdf">Do We Need More Training Data or Better Models for Object Detection?</a></strong><br>
-    Xiangxin Zhu, Carl Vondrick, Deva Ramanan, Charless C. Fowlkes<br>
-    <em>BMVC 2012</em><br>
-    <span class="links"><a href="largetrain.pdf">Paper</a>  <a href="http://vision.ics.uci.edu/datasets/data_10X_release.tar">Dataset</a></span>
-    </div>
-
-    <br>
-
-<h3>Efficient Video Annotation</h3>
-
-    <p>Large labeled datasets have enabled significant advancements in image understanding. However, there has not been
-    as much progress in video understanding, possibly because labeled video data is much more expensive to annotate. We seek
-    to develop better methods to annotate video efficiently.</p>
-
-    <div class="publication">
-    <a href="vatic/ijcv.pdf"><img src="vatic/ijcv-logo-2.png" class="publogo"></a>
-    <p><strong><a href="vatic/ijcv.pdf">Efficiently Scaling Up Crowdsourced Video Annotation</a></strong><br>
-    Carl Vondrick, Donald Patterson, Deva Ramanan<br>
-    <em>IJCV 2012</em><br>
-    <span class="links"><a href="vatic/ijcv.pdf">Paper</a> <a href="vatic/">Project Page</a></span> 
-    </p>
-    </div>
-
-    <div class="publication">
-    <a href="vatic/videoalearn.pdf"><img src="alearn.jpg" class="publogo"></a>
-    <p><strong><a href="vatic/videoalearn.pdf">Video Annotation and Tracking with Active Learning</a></strong><br>
-    Carl Vondrick, Deva Ramanan<br>
-    <em>NIPS 2011</em><br>
-    <span class="links"><a href="vatic/videoalearn.pdf">Paper</a> <a href="active/">Project Page</a></span></p>
-    </div>
-
-    <div class="publication">
-    <a href="vatic/virat.pdf"><img src="virat.jpg" class="publogo"></a>
-    <p><strong><a href="vatic/virat.pdf">A Large-scale Benchmark Dataset for Event Recognition</a></strong><br>
-    Sangmin Oh, et al.<br>
-    <em>CVPR 2011</em><br>
-    <span class="links"><a href="vatic/virat.pdf">Paper</a> <a href="http://www.viratdata.org/">Project page</a></span></p>
-    </div>
-
-    <div class="publication">
-    <a href="vatic/scalingup.pdf"><img src="vatic/logo.jpg" class="publogo"></a>
-    <p><strong><a href="vatic/scalingup.pdf">Efficiently Scaling Up Video Annotation with Crowdsourced Marketplaces</a></strong><br>
-    Carl Vondrick, Deva Ramanan, Donald Patterson<br>
-    <em>ECCV 2010</em><br>
-    <span class="links"><a href="vatic/scalingup.pdf">Paper</a> <a href="vatic/">Project Page</a></span> 
-    </p>
-    </div>
-
-    <p>* indicates equal contribution</p>
-
-</div>
-
-
-<div class="container">
-    <h2>Media and Talks</h2> 
-
-    <p>Press about learning predictive models from millions of raw videos:</p>
-    
-    <div style='text-align:center;'>
-    <div class='press'><a href="http://www.npr.org/sections/alltechconsidered/2016/07/12/485144229/a-computer-binge-watched-tv-and-learned-to-predict-what-happens-next"><img src='media/npr.jpg' height="100%"></a></div>
-    <div class='press'><a href="http://money.cnn.com/2016/06/21/technology/ai-kissing/"><img src='media/cnn.png' height="100%"></a></div>
-    <div class='press'><a href="http://bigstory.ap.org/article/7ec97c70223e49b98fbc7df2ff824d59/how-do-you-teach-human-interaction-robot-lots-tv"><img src='media/ap.png' height="100%"></a></div>
-    <div class='press'><a href="http://www.nbcnews.com/mach/technology/deep-learning-predicts-future-n690851"><img src='media/nbc.png' height="100%"></a></div>
-    <div class='press'><a href="https://www.wired.com/2016/06/mit-algorithm-predicts-future-watching-tv/"><img src='media/wired.png' height="100%"></a></div>
-    <div class='press'><a href="https://www.scientificamerican.com/article/spoiler-alert-artificial-intelligence-can-predict-how-scenes-will-play-out/"><img src='media/sciamer.png' height="100%"></a></div>
-    <div class='press'><a href="https://www.newscientist.com/article/2111363-binge-watching-videos-teaches-computers-to-recognise-sounds/"><img src='media/newscientist.jpg' height="100%"></a></div>
-    <div class='press'><a href="weekjunior.pdf"><img src='media/weekjunior.jpg' height="100%"></a></div>
-    <div class='press'><a href="https://www.youtube.com/watch?v=pGrNwtHxMqs"><img src='media/colbert.jpg' height="100%"></a></div>
-    <div class='press'><a href="http://www.forbes.com/sites/janetwburns/2016/06/22/mit-computers-binge-watch-desperate-housewives-the-office-to-learn-about-hugs/#7adca64a3892"><img src='media/forbes.png' height="100%"></a></div>
-    <div class='press'><a href="http://www.newsweek.com/artificial-intelligence-algorithm-predicts-future-473118"><img src='media/newsweek.jpg' height="100%"></a></div>
-    <div class='press'><a href="http://www.popsci.com/binge-watching-tv-helps-computer-predict-human-behavior"><img src='media/popsci.jpg' height="100%"></a></div>
-    <div class='press'><a href="http://www.theverge.com/2016/9/12/12886698/machine-learning-video-image-prediction-mit"><img src='media/verge.png' height="100%"></a></div>
-    <!--<div class='press'><a href="http://motherboard.vice.com/read/researchers-taught-a-machine-how-to-generate-the-next-frames-in-a-video"><img src='media/vice.png' height="100%"></a></div>-->
-    <!--<div class='press'><a href="https://www.engadget.com/2016/11/28/ai-creates-videos-of-the-future/"><img src='media/engagdet.png' height="100%"></a></div>-->
-    <!--<div class='press'><a href="https://www.technologyreview.com/s/532231/random-image-experiment-reveals-the-building-blocks-of-human-imagination/"><img src='media/mtr.png' height="100%"></a></div>-->
-    <!--<div class='press'><a href="http://www.marketplace.org/shows/marketplace-tech/marketplace-tech-monday-december-5-2016"><img src='media/marketplace.png' height="100%"></a></div>-->
-    </div>
-
-    <p>A few talks about our work:</p>
-
-    <div style='text-align:center;'>
-    <div class="talk">
-        <a href="http://view.vzaar.com/8635753/player"><img src='rework.png' height='150'></a><br>
-        Visual Anticipation, RE-WORK 2016
-    </div>
-    <div class="talk">
-        <a href="http://techtalks.tv/talks/hoggles-visualizing-object-detection-features/59386/"><img src='hoggles-talk.png' height='150'></a><br>
-        Visualizing Object Detection Features,
-        ICCV 2013
-    </div>
-    </div>
-
-    <br>
 
 </div>
 
